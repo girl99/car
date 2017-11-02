@@ -1,0 +1,137 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<meta name="keywords" content="JS代码,焦点图,JS广告代码,JS特效代码" />
+<meta name="description" content="" />
+<title></title>
+<link href="css/lrtk.css" rel="stylesheet" type="text/css" />
+<link href="../css/base.css" rel="stylesheet" type="text/css" />
+
+<script type="text/javascript" src="js/lrtk.js"></script>
+<script>
+  window.onload = function()
+  {
+	  var oBox = document.getElementById('box');
+	  var oPrev = getByClass(oBox,'prev')[0];
+	  var oNext = getByClass(oBox,'next')[0];
+	  var oBigUl = getByClass(oBox,'bigUl')[0];
+	  var aLiBig = oBigUl.getElementsByTagName('li');
+	  var oNumUl = getByClass(oBox,'numberUl')[0];
+	  var aLiNumber = oNumUl.getElementsByTagName('li');
+	  var oTextUl = getByClass(oBox,'textUl')[0];
+	  var aLiText = oTextUl.getElementsByTagName('li');
+	  var nowZindex = 1;
+	  var now = 0;
+	  function tab()
+	  {
+		   for(var i=0; i<aLiNumber.length; i++)
+			  {
+				  aLiNumber[i].className = '';
+			  }
+			  aLiNumber[now].className = 'night';
+			  
+		  aLiBig[now].style.zIndex = nowZindex++;
+		  aLiBig[now].style.opacity = 0;
+		  startMove(aLiBig[now],'opacity',100);
+		  for(var i=0; i<aLiText.length; i++)
+		  {
+			  aLiText[i].style.display = 'none';
+		  }
+		  aLiText[now].style.display = 'block'
+		  
+	  }
+	  
+	  for(var i=0; i<aLiNumber.length; i++)
+	  {
+		  aLiNumber[i].index = i;
+		  aLiNumber[i].onclick = function()
+		  {
+			 
+			  if(this.index==now)return;
+			  now = this.index;
+			 
+			  tab();
+		  }
+	  }
+	  oNext.onmouseover = oPrev.onmouseover = oBigUl.onmouseover = function()
+	  {
+		  startMove(oPrev,'opacity',100);
+		   startMove(oNext,'opacity',100)
+	  }
+	   oNext.onmouseout = oPrev.onmouseout = oBigUl.onmouseout = function()
+	  {
+		  startMove(oPrev,'opacity',0);
+		  startMove(oNext,'opacity',0)
+	  }
+	  oPrev.onclick = function()
+	  {
+		  now--
+		  if(now==-1)
+		  {
+			  now=aLiNumber.length-1;
+		  }
+		  tab();
+	  }
+	  
+	    oNext.onclick = function()
+	  {
+		  now++
+		  if(now==aLiNumber.length)
+		  {
+			  now=0;
+		  }
+		  tab();
+	  }
+	  
+	  var timer = setInterval(oNext.onclick,3000)
+	  oBox.onmouseover = function()
+	  {
+		  clearInterval(timer)
+	  }
+	  oBox.onmouseout = function()
+	  {
+		  timer = setInterval(oNext.onclick,3000)//改变速度修改3000 ，例如3000=3秒钟
+	  }
+  }
+</script>
+<base target="_blank" />
+
+
+
+
+</head>
+<body>
+<!-- 代码 开始 -->
+<div id="box" >
+    <ul class="bigUl">
+       <li style="z-index:1"><a href="#"><img src="image/aa.jpg" width="332" height="249" /></a></li>
+       <li><a href="#"><img src="image/bb.jpg" width="332" height="243" /></a></li>
+       <li><a href="#"><img src="image/cc.jpg" width="332" height="243" /></a></li>
+       <li><a href="#"><img src="image/dd.jpg" width="332" height="243" /></a></li>
+       <li><a href="#"><img src="image/ee.jpg" width="332" height="243" /></a></li>
+    </ul>
+    <ul class="numberUl">
+      <li class="night">1</li>
+      <li>2</li>
+      <li>3</li>
+      <li>4</li>
+      <li>5</li>
+    </ul>
+   <ul class="textUl">
+     <li style="display:block;"><a href="#">李克强一日三次表扬中国北车</a></li>
+        <li><a href="#">马凯胡春华参观中国北车展台</a></li>
+        <li><a href="#">中国高铁企业首次登上哈佛讲坛</a></li>
+        <li><a href="#">第十三届中国国际人才交流大会开幕 </a></li>
+        <li><a href="#">中国首列出口阿根廷内燃动车组下线启运</a></li>
+      </ul>
+    
+      
+    
+ </div>
+<!-- 代码 结束 -->
+
+
+</div>
+</body>
+</html>

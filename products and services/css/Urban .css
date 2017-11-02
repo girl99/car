@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* CSS Document */
+.nav{width:1263px; margin:0 auto; margin-bottom:19px;}
+.main{width:1263px; margin:0 auto;}
+.main .top h3,.main .top p{float:left;}
+.main .top h3{height:58px; line-height:58px; margin-left:73px; font-size:18px; color:#2b2b2b;}
+.main .top p{float:right; margin-right:38px; margin-top:10px; height:48px; line-height:48px; font-size:12px; color:#777777;}
+.main .top p a{color:#777777;}
+.main .top p a:hover{color:#777;}
+.main .top p span{margin-left:5px; margin-right:5px;}
+.main .bottom{margin:0px 38px 25px 226px; border:1px solid #e2e2e2;}
+.main .bottom div{background:#ededed; margin:0px 10px 15px 10px; position:relative;}
+.main .bottom div:nth-child(1){margin-top:20px;}
+.main .bottom div img,.main .bottom div ul{float:left;}
+.main .bottom div img{margin:14px 22px 14px 13px;}
+.main .bottom div ul{width:697px;}
+.main .bottom div ul h4{margin-top:12px; height:38px; line-height:38px; font-size:16px; color:#0753a1;}
+.main .bottom div ul p{line-height:25px; font-size:12px; color:#0c0703; text-indent:2em; padding-right:18px;}
+.main .bottom div ul a{width:118px; height:44px; line-height:44px; font-size:12px; color:#ffffff; background:#012e72; text-align:center;}
+.main .bottom div ul a:hover{color:#fff;}
+.main .bottom div .left{position:absolute; left:701px; top:150px; }
+.main .bottom div .right{position:absolute; left:834px; top:150px; }
+.main .bottom>ul{float:right; margin-bottom:20px;}
+.main .bottom>ul li{float:left; height:20px; line-height:20px; font-size:12px; text-align:center; border:1px solid #dddddd; margin-left:3px;}
+.main .bottom>ul li a{ color:#003366; display:block;}
+.main .bottom>ul li a:hover{background:#036cb4; color:#003366;}
+.main .bottom>ul li:nth-child(1){width:38px;}
+.main .bottom>ul li:nth-child(2){width:50px;}
+.main .bottom>ul li:nth-child(3){width:21px;}
+.main .bottom>ul li:nth-child(4){width:21px;}
+.main .bottom>ul li:nth-child(5){width:50px;}
+.main .bottom>ul li:nth-child(6){width:38px;}
+.main .bottom>ul li:nth-child(7){width:75px; height:17px; line-height:17px; margin-top:1px;}

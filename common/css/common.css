@@ -1,0 +1,93 @@
+@charset "utf-8";
+/* CSS Document */
+/*hear start*/
+.head{width:1171px; margin:0 auto;}
+.head .logo{padding-top:72px; padding-left:1px; float:left; padding-bottom:17px;}
+.head .right{float:right; position:relative; padding-top:11px;}
+.head .right .top{height:61px; line-height:61px; padding-right:135px;}
+.head .right .top a{font-size:12px; color:#494949; float:left; display:block; padding:0 8px; font-family:"微软雅黑";}
+.head .right .top a{}
+.head .right .top div{float:left; font-size:12px; color:#494949; font-family:"微软雅黑"; padding:0 8px;}
+.head .right .top div ul{position:absolute; right:135px; top:55px; background:#f0fefc; padding:0 15px 0 2px; display:none;}
+.head .right .top div ul li{line-height:22px;}
+.head .right .top div:hover ul{display:block;}
+.head .right .top div ul li a{font-family:"微软雅黑";}
+.head .right .top div ul li a:hover{text-decoration:underline; color:#F00;}
+.head .right .bottom{ padding-top:14px; text-align:right; padding-left:235px;}
+.head .right .bottom form p{height:35px; line-height:35px; float:left;}
+.head .right .bottom form p input{width:248px; height:33px; border:1px solid #bcbcbc; border-right:0; padding-left:5px; color:#b9b9b9;}
+.head .right .bottom form p a{display:inline-block; height:35px; width:34px; background: url(../img/anniu-bg.jpg) no-repeat left top;}
+.head .right form p select{width:126px; height:21px; border:1px solid #aaaaaa; font-size:12px; position:absolute; top:33px; right:0px; font-family:"微软雅黑";}
+/*hear end*/
+/*nav start*/
+.nav{width:100%; background:#002d71;}
+.nav .container{width:1171px; margin:0 auto;}
+.nav .container>ul{padding-left:30px;}
+.nav .container>ul>li{float:left;  text-align:center; position:relative;}
+.nav .container>ul>li:nth-child(1)>a{width:83px; background:;}
+.nav .container>ul>li:nth-child(2)>a{background:;}
+.nav .container>ul>li:nth-child(3)>a{background:;}
+.nav .container>ul>li:nth-child(4)>a{width:124px; background:;}
+.nav .container>ul>li:nth-child(6)>a{width:124px; background:;}
+.nav .container>ul>li:nth-child(7)>a{background:;}
+.nav .container>ul>li:nth-child(8)>a{background:;}
+.nav .container>ul>li:nth-child(9)>a{background:;}
+.nav .container>ul>li:nth-child(10)>a{background:;}/*☜↑根具网页不同在此添加背景色*/
+.nav .container>ul>li>a{font-size:14px; font-family:"微软雅黑"; display:inline-block;height:49px; line-height:49px; width:111px; color:#fff;}
+.nav .container>ul>li>a:hover{ background:#e70012;}
+.nav .container ul li ul{background:#fff; position:absolute; left:0px; top:49px; display:none; padding-left:20px;z-index: 1000;}
+.nav .container ul li:nth-child(2) ul{width:550px;}
+.nav .container ul li:nth-child(3) ul{width:515px;}
+.nav .container ul li:nth-child(4) ul{width:488px;}
+.nav .container ul li:nth-child(5) ul{width:220px;}
+.nav .container ul li:nth-child(6) ul{width:575px; left:-32px;}
+.nav .container ul li:nth-child(7) ul{width:615px; left:-208px;}
+.nav .container ul li:nth-child(8) ul{width:375px; left:-110px;}
+.nav .container ul li:nth-child(9) ul{width:200px;}
+.nav .container ul li:nth-child(10) ul{width:255px; left:-165px;}
+
+
+
+.nav .container ul li ul li{float:left;}
+.nav .container ul li ul li a{display:block; height:32px; line-height:32px; font-size:12px; color:#363636; padding:0 8px;}
+
+.nav .container ul li ul li a:hover{text-decoration:underline;}
+.nav .container ul li:hover ul{display:block;}
+/*nav end*/
+/*banner staart*/
+.banner{width:100%; height:250px;overflow: hidden;}/**此处更换背景banner/
+/*banner end*/
+/*friendlink start*/
+.friendlink{ width:100%; background:#8d8d8d;}
+.friendlink .container{ width:1171px; margin:0 auto;}
+.friendlink .container p{ height:55px; line-height:55px; font-size:12px; color:#fff; font-family:"微软雅黑"}
+.friendlink .container p select{ height:25px; line-height:25px; font-size:12px; color:#8d8d8d; font-family:"微软雅黑"; border:1px solid #a9a9a9; width:337px; margin-right:34px;}
+.friendlink .container p select:nth-child(3){margin-right:0;}
+/*friendlink end*/
+/*footer start*/
+.footer{width:100%; background:#002d71;}
+.footer .container{width:1171px; margin:0 auto; text-align:center; padding-top:19px; padding-bottom:24px; line-height:27px; font-size:12px; color:#fff; font-family:"微软雅黑"}
+.footer .container span{ height:49px; line-height:49px; display:block;}
+.footer .container span a{color:#fff; font-size:12px; font-family:"微软雅黑"}
+.footer .container span a:hover{ text-decoration:underline;}
+/*footer end*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

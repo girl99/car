@@ -1,0 +1,12 @@
+@charset "utf-8";
+/* CSS Document */
+.main{width:1263px; margin:0 auto;}
+.content{width:1263px; margin:0 auto;}
+.content h4{margin-top:12px; height:70px; line-height:70px; font-size:16px; color:#0e0804; padding-left:67px;}
+.content ul{padding:0 50px 39px 67px;}
+.content ul li{float:left; width:362px; margin:0px 27px 15px 0px; border:1px solid #dfdfdf;}
+.content ul li:nth-child(3),.content ul li:nth-child(6){margin-right:0px;}
+.content ul li img{margin:7px 8px 7px 8px;}
+.content ul li p{height:30px; line-height:30px; background:#dfdfdf; text-align:center; font-size:12px;}
+.content ul li p a{color:#0c0805;}
+.content ul li p a:hover{color:#0c0805;}

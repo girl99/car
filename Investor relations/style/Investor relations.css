@@ -1,0 +1,32 @@
+.banner{background: url(../images/tzzgx-banner.jpg) no-repeat center top;}
+.nav .container>ul>li:nth-child(6)>a{background:#e70012;}
+.main{width: 1169px; margin: 0 auto; padding-top: 29px;}
+.main .left{width: 141px; float: left;}
+.main .left h2{ height: 42px; line-height: 42px; font-size: 18px; color: #2b2b2b; font-family: "微软雅黑";
+ text-align:center;}
+.main .left ul li a{text-align: center; display: block; height: 44px; line-height: 44px; background: #5f5f5f;
+ font-size: 14px; color: #fff; margin-bottom: 2px; font-family: "微软雅黑";}
+ .main .left ul li:nth-child(1) a{ background: #002d71;}
+.main .left ul li a:hover{background: #002d71; color: #fff;}
+.main .left ul li ul{padding-left: 6px;}
+.main .left ul li ul li a{height: 34px; line-height: 34px; font-size: 12px; background:#002d71;
+ font-family: "\5FAE\8F6F\96C5\9ED1","\5B8B\4F53";}
+.main .right{float: right; width: 999px; padding-bottom: 24px;}
+.main .right .subnav{ padding-left: 730px;}
+.main .right .subnav p,.main .right .subnav a,.main .right .subnav span{float: left; height: 48px; line-height: 48px;
+font-size:14px; color: #777777; font-family: "微软雅黑";}
+.main .right .subnav span{ margin: 0 5px;}
+.main .right .subnav a:hover{text-decoration:underline;}
+.main .right .bottom{border:2px solid #e2e2e2; padding: 0 11px 28px 11px;}
+.main .right .bottom h2{font-family: "微软雅黑"; height: 75px; line-height: 75px; text-align: center; font-weight:inherit;}
+.main .right .bottom img{margin-left: 197px; margin-bottom: 25px;}
+.main .right .bottom h3{color: #373737; font-weight: bold; height: 30px; line-height: 30px; border-bottom: 1px dotted #555;
+font-family: "\5FAE\8F6F\96C5\9ED1","\5B8B\4F53";}
+.main .right .bottom h4{padding-left: 28px; height: 48px; line-height: 48px;
+    font-family: "\5FAE\8F6F\96C5\9ED1","\5B8B\4F53"; font-size: 14px; color: #373737;}
+.main .right .bottom>ul{ margin-top: 9px; }
+.main .right .bottom>ul>li{float: left;}
+.main .right .bottom ul li ul{width: 243px; padding: 0 18px 0 28px;}
+.main .right .bottom ul>li:nth-child(2)>ul{width: 400px;}
+.main .right .bottom ul li ul li{height: 46px; line-height: 46px;font-family: "\5FAE\8F6F\96C5\9ED1","\5B8B\4F53";
+font-size: 14px; color: #373737;}

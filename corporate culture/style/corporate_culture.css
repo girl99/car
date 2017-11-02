@@ -1,0 +1,21 @@
+.nav .container>ul>li:nth-child(5)>a{background:#e70012;}
+.banner{width:100%; background: url(../images/qywh-banner.jpg) no-repeat center bottom; height:250px;}
+.main{width: 1169px; margin: 0 auto; padding-top: 29px;}
+.main .left{width: 141px; float: left;}
+.main .left h2{ height: 42px; line-height: 42px; font-size: 18px; color: #2b2b2b; font-family: "微软雅黑";
+ text-align:center;}
+.main .left ul li a{text-align: center; display: block; height: 44px; line-height: 44px; background: #5f5f5f;
+ font-size: 14px; color: #fff; margin-bottom: 2px; font-family: "微软雅黑";}
+ .main .left ul li:nth-child(1) a{ background: #002d71;}
+.main .left ul li a:hover{background: #002d71; color: #fff;}
+.main .right{float: right; width: 999px; padding-bottom: 24px;}
+.main .right .subnav{padding-left: 745px;}
+.main .right .subnav p,.main .right .subnav a,.main .right .subnav span{float: left; height: 48px; line-height: 48px;
+font-size:14px; color: #777777; font-family: "微软雅黑";}
+.main .right .subnav span{ margin: 0 5px;}
+.main .right .subnav a:hover{text-decoration:underline;}
+.main .right .bottom{border:2px solid #e2e2e2; padding-top: 5px; padding-right: 10px; padding-bottom: 36px;}
+.main .right .bottom h2{font-family: "微软雅黑"; height: 71px; line-height: 71px; text-align: center; font-weight:inherit;}
+.main .right .bottom img{display: block; margin-left: 242px; margin-bottom: 1px;}
+.main .right .bottom h3{height: 65px; line-height: 65px; padding-left: 35px; font-size: 14px; color: #ff0000; font-family: "微软雅黑";}
+.main .right .bottom p{ line-height: 28px; padding-left: 10px; text-indent:24px; font-size: 14px;  font-family: "微软雅黑";}

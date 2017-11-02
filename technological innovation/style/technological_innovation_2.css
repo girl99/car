@@ -1,0 +1,24 @@
+@charset "utf-8";
+/* CSS Document */
+.nav .container>ul>li:nth-child(7)>a{background:#e70012;}
+.banner{width:100%; background:url(../images/kjcx-banner.jpg) no-repeat center bottom; height:250px;}
+.main{ width:1169px; margin:0 auto; padding-top:29px;}
+.main .left{ float:left; width:141px;}
+.main .left h2{ height:38px; line-height:38px; font-size:18px; color:#2b2b2b; text-align:center; font-family:"微软雅黑";}
+.main .left ul{padding-top:4px;}
+.main .left ul li a{display:block; height:44px; line-height:44px; font-size:14px; color:#fff; margin-bottom:2px; background:#5f5f5f; text-align:center; font-family:"微软雅黑";}
+.main .left ul li:nth-child(2) a{background: #002d71;}
+.main .left ul li a:hover{ background:#002d71;}
+.main .right{float:right; width:999px; padding-bottom:24px;}
+.main .right .subnav{height:48px; line-height:48px; padding-left:700px;}
+.main .right .subnav p{height:48px; line-height:48px; float:left; font-family:"微软雅黑"; font-size:14px; color:#777777;}
+.main .right .subnav span{float:left; font-size:14px; color:#777777; padding:0 6px;}
+.main .right .subnav a{height:48px; line-height:48px; float:left; display:inline-block; font-size:14px; color:#777777; font-family:"微软雅黑";}
+.main .right .subnav a:hover{text-decoration: underline;}
+.main .right .bottom{border:2px solid #e2e2e2; padding-top:25px; padding-bottom:19px;}
+.main .right .bottom h3{height:32px; line-height:32px; text-align:center; font-size:24px; color:#2b2b2b;font-family:"微软雅黑"; font-weight:inherit;}
+.main .right .bottom h4{height:66px; line-height:66px; text-align:center;font-family: "\5FAE\8F6F\96C5\9ED1","\5B8B\4F53";
+font-size: 14px; color: #373737; font-weight: bold;}
+.main .right .bottom img{float: right; padding-right: 8px; padding-bottom: 10px;}
+.main .right .bottom p{font-size:14px; line-height:30px; color:#373737; text-indent:28px;font-family:"微软雅黑";
+ padding-left:10px; padding-right:10px; padding-bottom:18px;}

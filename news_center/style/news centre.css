@@ -1,0 +1,30 @@
+@charset "utf-8";
+/* CSS Document */
+.banner{width:1263px; margin:0 auto;}
+.main{width:1169px; margin:8px auto 0px auto; padding-left:56px; padding-right:38px; }
+.main .main-left{width:800px; float:left; margin-right:62px;}
+.main .main-right{float:left; width:307px; margin-top:18px;}
+.main .main-left>h3{height:63px; line-height:63px; font-size:18px; color:#0e0804; float:left; padding-right:700px;}
+.main .main-left>p{fong-size:6px; height:63px; line-height:63px; float:left;}
+.main .main-left .top{padding-bottom:25px; border-bottom:1px solid #cbcbcb;}
+.main .main-left .top-left{width:331px; float:left; margin-right:22px;}
+.main .main-left .top-left>p{height:43px; line-height:43px; font-size:12px; color:#ffffff; background:#7f7f7f; text-align:center;}
+.main .main-left .top-right{width:447px; float:left;}
+.main .main-left .top-right ul li a{line-height:31px; font-size:12px; color:#0e0804;}
+.main .main-left .top-right ul li span{line-height:31px; font-size:12px; color:#0e0804; float:right;}
+.main .main-left .top-right ul li a:hover,.main .main-left .top-right ul li span:hover{color:red;}
+.main .main-left .bottom>h3,.main .main-left .bottom>p{float:left; height:51px; line-height:51px;}
+.main .main-left .bottom>h3{font-size:18px; color:#0e0804; padding-right:444px;}
+.main .main-left .bottom>p a{margin-left:24px; color:#515151;}
+.main .main-left .bottom>p a:hover{color:#012c70;}
+.main .main-left .bottom>ul{clear:both;}
+.main .main-left .bottom>ul>li{height:31px; line-height:31px; padding-left:16px;background: url(../images/xwzx_3.gif) no-repeat left;}
+.main .main-left .bottom>ul>li>a{ font-size:12px; color:#0e0804;float:left;}
+.main .main-left .bottom>ul>li>span{height:31px; line-height:31px; font-size:12px; color:#0e0804; float:right;}
+.main .main-left .bottom ul li a:hover,.main .main-left .bottom ul li span:hover{color:red;}
+.main .main-right h4{height:52px; line-height:52px; font-size:16px; color:#0e0804;}
+.main .main-right ul{background:#f0f2f3; border:1px solid #e0e0e0;}
+.main .main-right ul li a{line-height:25px; font-size:12px; color:#171717; background:url(../images/xwzx_2.gif) no-repeat 15px 8px;  padding-left:31px;}
+.main .main-right .top{padding-top:10px; padding-bottom:10px;}
+.main .main-right .bottom{padding-top:112px; padding-bottom:40px;}
+.main .main-right ul li a:hover{color:red;}

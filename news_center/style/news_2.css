@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document */
+.nav .container>ul>li:nth-child(3)>a{background:#e70012;}
+.banner{width:100%; background: url(../images/xwzx-banner.jpg) no-repeat center bottom; height:250px;}
+.main{ width:1169px; margin:0 auto; padding-top:29px;}
+.main .left{ float:left; width:141px;}
+.main .left h2{ height:38px; line-height:38px; font-size:18px; color:#2b2b2b; text-align:center; font-family:"微软雅黑";}
+.main .left ul{padding-top:4px;}
+.main .left ul li a{display:block; height:44px; line-height:44px; font-size:14px; color:#fff; margin-bottom:2px; background:#5f5f5f; text-align:center; font-family:"微软雅黑";}
+.main .left ul li:nth-child(2) a{background: #002d71;}
+.main .left ul li a:hover{ background:#002d71;}
+.main .right{float:right; width:999px; padding-bottom:24px;}
+.main .right .subnav{height:48px; line-height:48px; padding-left:710px;}
+.main .right .subnav p{height:48px; line-height:48px; float:left; font-family:"微软雅黑"; font-size:14px; color:#777777;}
+.main .right .subnav span{float:left; font-size:14px; color:#777777; padding:0 6px;}
+.main .right .subnav a{height:48px; line-height:48px; float:left; display:inline-block; font-size:14px; color:#777777; font-family:"微软雅黑";}
+.main .right .subnav a:hover{text-decoration: underline;}
+.main .right .bottom{border:2px solid #e2e2e2; padding-top:25px; padding-bottom:28px;}
+.main .right .bottom h3{height:32px; line-height:32px; text-align:center; font-size:24px;color:#2b2b2b;font-family:"微软雅黑"; font-weight:inherit;}
+.main .right .bottom h4{height:66px; line-height:66px; text-align:center;font-family:"\5FAE\8F6F\96C5\9ED1","\5B8B\4F53";
+font-size: 14px; color: #373737; font-weight: bold;}
+.main .right .bottom p{font-size:14px; line-height:30px; color:#373737; text-indent:28px;font-family:"微软雅黑";
+ padding-left:8px; padding-right:8px; padding-bottom:18px;}
+.main .right .bottom ul{padding: 18px 10px 0px 10px;}
+.main .right .bottom ul li{height: 46px; line-height: 46px; padding-left: 49px; border-bottom:1px solid #e5e4e2;
+background:url(../images/xwzx-title-bg.jpg) no-repeat 19px center;}
+.main .right .bottom ul li span{height: 46px; line-height: 46px; font-family:"\5FAE\8F6F\96C5\9ED1","\5B8B\4F53"; color: #a9a9a9;}
+.main .right .bottom ul li a{height: 46px; line-height: 46px; font-size: 16px;
+font-family:"\5FAE\8F6F\96C5\9ED1","\5B8B\4F53"; color:#393939; width: 817px; display: inline-block;} 
+.main .right .bottom ul li a:hover{text-decoration: underline; }
+.main .right .bottom .box{padding-top: 10px; padding-left: 497px;}
+.main .right .bottom .box div{float: left; width: 22px; height: 20px; border: 1px solid #dddddd; margin-right: 2px;
+text-align: center; line-height: 20px; color: #333; font-size: 12px; cursor: pointer;}
+.main .right .bottom .box div:hover{background: #036cb4; color: #fff;}
+.main .right .bottom .box div span{color:#ff0000; display: inline-block; padding: 0 5px;}
+.main .right .bottom .box div strong{color: #0000ff; font-weight: bold; padding-right: 5px;}
+.main .right .bottom .box div:nth-child(1){background: #036cb4; color: #fff;}
+.main .right .bottom .box div:nth-child(1):hover{text-decoration: none;}
+.main .right .bottom .box div:nth-child(11){width: 46px; font-size: 12px;}
+.main .right .bottom .box div:nth-child(11):hover{ text-decoration: underline;}
+.main .right .bottom .box div:nth-child(12){width: 34px; font-size: 12px;}
+.main .right .bottom .box div:nth-child(12):hover{ text-decoration: underline;}
+.main .right .bottom .box div:last-child{width: 137px; font-size: 12px; cursor:default; color: #000000;}
+.main .right .bottom .box div:last-child:hover{text-decoration:none; background: #fff;}

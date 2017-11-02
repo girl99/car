@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* CSS Document */
+.nav{width:1263px; margin:0 auto;}
+.main{width:1263px; margin:0 auto;}
+.main .main-left{float:left; width:199px; margin-top:25px; text-align:center; padding-left:27px;}
+.main .main-left h3{height:46px; line-height:46px; font-size:18px; color:#2b2b2b;}
+
+.main .main-right{float:left; width:999px; margin-top:29px; margin-right:38px;}
+.main .main-right .top p{text-align:right; height:48px; line-height:48px; font-size:12px; color:#777777;}
+.main .main-right .top p a{color:#777777;}
+.main .main-right .top p a:hover{color:#777;}
+.main .main-right .top p span{margin-left:5px; margin-right:5px;}
+.main .main-right .bottom{border:1px solid #e2e2e2;}
+.main .main-right .bottom div{margin:0px 10px 15px 10px; background:#ededed;}
+.main .main-right .bottom div:nth-child(1){margin-top:20px;}
+.main .main-right .bottom div ul,.main .main-right .bottom div img{float:left;}
+.main .main-right .bottom div ul{width:680px; margin-right:17px; position:relative;}
+.main .main-right .bottom div img{margin:14px 22px 14px 13px;}
+.main .main-right .bottom div ul h4{height:28px; line-height:28px; margin-top:12px; color:#0753a1;}
+.main .main-right .bottom div ul h6{height:24px; line-height:24px; font-size:12px; color:#0c0703;}
+.main .main-right .bottom div ul p{height:25px; line-height:25px; font-size:12px; color:#0c0703; text-indent:2em;}
+.main .main-right .bottom div ul .left{ position: absolute; left: 424px; top: 150px; width:118px; height:44px; text-align:center; font-size:12px; color:#fff; background:#012e72; line-height:44px;}
+.main .main-right .bottom div ul a:hover{color:#fff;}
+.main .main-right .bottom div ul .right{ position: absolute; left: 567px; top: 150px; width:118px; height:44px; text-align:center; font-size:12px; color:#fff; background:#012e72; line-height:44px;}
+.main .main-right .bottom>ul{float:right; margin-bottom:20px;}
+.main .main-right .bottom>ul li{float:left; height:20px; line-height:20px; font-size:12px; text-align:center; border:1px solid #dddddd; margin-left:3px;}
+.main .main-right .bottom>ul li a{ color:#003366; display:block;}
+.main .main-right .bottom>ul li a:hover{background:#036cb4; color:#003366;}
+.main .main-right .bottom>ul li:nth-child(1){width:38px;}
+.main .main-right .bottom>ul li:nth-child(2){width:50px;}
+.main .main-right .bottom>ul li:nth-child(3){width:21px;}
+.main .main-right .bottom>ul li:nth-child(4){width:21px;}
+.main .main-right .bottom>ul li:nth-child(5){width:50px;}
+.main .main-right .bottom>ul li:nth-child(6){width:38px;}
+.main .main-right .bottom>ul li:nth-child(7){width:75px; height:17px; line-height:17px; margin-top:1px;}
+

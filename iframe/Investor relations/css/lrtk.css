@@ -1,0 +1,60 @@
+*{margin:0;padding:0;}
+body{font-size:14px;font-family:"Microsoft YaHei";}
+ul,li{list-style:none;}
+
+#tab{position:relative;width:315px;height:292px;border: 1px solid #8b8b8b;border-top:0;}
+#tab .tabList{width:315px;height:37px;border-bottom:1px solid #8b8b8b;
+}
+#tab .tabList ul li{
+	float:left;
+	background:#8b8b8b;	
+	height:37px;
+	line-height:37px;
+	width:102px;
+	text-align:center;
+	margin-right:8px;
+	position:relative;
+	cursor:pointer;
+}
+#tab .tabList ul li:nth-child(3){width:94px;margin-right:0;}
+#tab .tabCon{
+	
+	
+	position: absolute;
+	left: -1px;
+	top: 38px;
+	width: 313px;
+	height: 253px;
+}
+#tab .tabCon div{
+	position: absolute;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	width: 313px;
+	height: 253px;
+	left: 1px;
+	top: 2px;
+}
+#tab .tabCon div img{margin-left:29px;margin-top:2px;}
+#tab .tabCon div p{line-height:42px;font-size:12px;padding-left:35px;color:#000;}
+#tab .tabCon div p span{color:#2c5581;}
+#tab .tabCon div p a{color:#2c5581;text-decoration:underline;}
+#tab .tabCon div ul{padding:10px 40px 0 15px;}
+#tab .tabCon div ul li{line-height:28px;}
+#tab .tabCon div ul li a{color:#5e534f;font-size:12px;text-decoration:none;}
+#tab .tabCon div ul li a:hover{text-decoration:underline;}
+#tab .tabList li.cur{
+	border:1px solid #8b8b8b;
+	background:#fff;
+	height:35px;
+	line-height:35px;
+	width:102px;
+	border-bottom:0;
+}
+#tab .tabList ul li:nth-child(1).cur{border-left:0;}
+#tab .tabList ul li:nth-child(2).cur{width:101px;}
+#tab .tabList ul li:nth-child(3).cur{width:92px;margin-right:0;border-right:0;}
+#tab .tabCon div.cur{
+	opacity:1;
+	filter:alpha(opacity=100);
+}

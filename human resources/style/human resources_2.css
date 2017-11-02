@@ -1,0 +1,23 @@
+﻿@charset "utf-8";
+/* CSS Document */
+.banner{background: url(../images/rlzy-banner.jpg) no-repeat center top;}
+
+.nav .container>ul>li:nth-child(10)>a{background:#e70012;}
+.main{width:1207px; background:#ffffff; padding:25px 0 0 56px; margin:0 auto;}
+.main .list,.content{float:left;}
+.main .list{width:141px; margin-right:29px;}
+.main .list h1{height:46px; line-height:46px; font-size:18px; font-family:微软雅黑; color:#2b2b2b; text-align:center;}
+.main .list ul li{margin-bottom:2px; width:141px;}
+.main .list ul li a{display:block; height:44px; line-height:44px; font-size:14px; font-family:微软雅黑; font-weight:bold; text-align:center; color:#ffffe8; background:#5f5f5f;}
+.main .list ul li:nth-child(2) a{background:#002d71;}
+.main .list ul li a:hover{background:#002d71;}
+.main .content{width:999px; padding:4px 0 24px 0;}
+.main .content .c-top{padding-left:753px; height:48px; line-height:48px; font-size:12px; font-family:微软雅黑; color:#777777;}
+.main .content .c-top a{font-size:12px; font-family:微软雅黑; color:#777777;}
+.main .content .c-top a:hover{text-decoration:underline;}
+.main .content ul{width:995px; height:386px; padding-top:19px; border:2px solid #e2e2e2;}
+.main .content ul h2{height:20px; line-height:20px; font-size:12px; color:#404c48; font-weight:100;}
+.main .content ul li{height:18px; line-height:18px; font-size:12px; color:#403f3d;}
+.main .content ul li a{font-size:12px; color:#496e9a;}
+.main .content ul li a:hover{color:#F00; text-decoration:underline;}
+
